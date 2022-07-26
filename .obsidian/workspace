@@ -57,8 +57,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -129,8 +128,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "cefeecacab4b98a6",
+  "active": "901ec7822f1677cb",
   "lastOpenFiles": [
-    "README.md"
+    "README.md",
+    "常用软件安装与使用/etcd.md"
   ]
 }
