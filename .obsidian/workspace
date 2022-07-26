@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "常用软件安装与使用/etcd.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "常用软件安装与使用/etcd.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "常用软件安装与使用/etcd.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "常用软件安装与使用/etcd.md"
               }
             }
           }
@@ -130,7 +130,7 @@
   },
   "active": "901ec7822f1677cb",
   "lastOpenFiles": [
-    "常用软件安装与使用/etcd.md",
-    "README.md"
+    "README.md",
+    "常用软件安装与使用/etcd.md"
   ]
 }
