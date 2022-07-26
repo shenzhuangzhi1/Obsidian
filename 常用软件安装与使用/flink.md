@@ -19,7 +19,7 @@ docker run \
     --network flink-network \
     --publish 8081:8081 \
     --env FLINK_PROPERTIES="${FLINK_PROPERTIES}" \
-    flink:latest jobmanager
+    flink:1.15.1-scala_2.12-java11 jobmanager
 ```
 
 and one or more TaskManager containers:
@@ -30,7 +30,7 @@ docker run \
     --name=taskmanager \
     --network flink-network \
     --env FLINK_PROPERTIES="${FLINK_PROPERTIES}" \
-    flink:latest taskmanager
+    flink:1.15.1-scala_2.12-java11 taskmanager
 ```
 
 The web interface is now available at [localhost:8081](http://localhost:8081/).
