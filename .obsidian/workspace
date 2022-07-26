@@ -1,0 +1,135 @@
+{
+  "main": {
+    "id": "e1b2d81b97ddc6d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "901ec7822f1677cb",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "常用软件安装与使用/etcd.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "791632fad1da2dea",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d88d34f2581dd00",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a28f71d1e83e189",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "cefeecacab4b98a6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e592c997a3c91a11",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "85f2ca961f9ef466",
+    "type": "split",
+    "children": [
+      {
+        "id": "66e638b7948bb64c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "36f3cad64f9acf7c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "常用软件安装与使用/etcd.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b4057470da1e8de4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "常用软件安装与使用/etcd.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f25bd82369343e5a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "424633ee153a5aba",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "常用软件安装与使用/etcd.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "6a28f71d1e83e189",
+  "lastOpenFiles": [
+    "README.md"
+  ]
+}
