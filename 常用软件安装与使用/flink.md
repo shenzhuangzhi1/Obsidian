@@ -6,14 +6,14 @@ Url for offline：[url](https://flink.apache.org/downloads.html)
 A _Flink Session cluster_ can be used to run multiple jobs. Each job needs to be submitted to the cluster after the cluster has been deployed. To deploy a _Flink Session cluster_ with Docker, you need to start a JobManager container. To enable communication between the containers, we first set a required Flink configuration property and create a network:
 
 ```sh
-FLINK_PROPERTIES="jobmanager.rpc.address: jobmanager"
-docker network create flink-network
+$ FLINK_PROPERTIES="jobmanager.rpc.address: jobmanager"
+$ docker network create flink-network
 ```
 
 Then we launch the JobManager:
 
 ```sh
-docker run \
+$ docker run \
     --rm \
     --name=jobmanager \
     --network flink-network \
@@ -25,7 +25,7 @@ docker run \
 and one or more TaskManager containers:
 
 ```sh
-docker run \
+$ docker run \
     --rm \
     --name=taskmanager \
     --network flink-network \
@@ -34,3 +34,11 @@ docker run \
 ```
 
 The web interface is now available at [localhost:8081](http://localhost:8081/).
+
+Submission of a job is now possible like this (assuming you have a local distribution of Flink available):
+
+```sh
+$ ./bin/flink run ./examples/streaming/TopSpeedWindowing.jar
+```
+
+To shut down the cluster, either terminate (e.g. with `CTRL-C`) the JobManager and TaskManager processes, or use `docker ps` to identify and `docker stop` to terminate the containers.
