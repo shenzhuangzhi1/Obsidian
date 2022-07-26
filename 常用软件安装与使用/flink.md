@@ -1,5 +1,5 @@
 # Download
-离线下载地址：[url](https://flink.apache.org/downloads.html)
+Url for offline：[url](https://flink.apache.org/downloads.html)
 # deploy
 ## Docker
 
