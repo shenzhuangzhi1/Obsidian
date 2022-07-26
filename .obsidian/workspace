@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -128,7 +129,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "6a28f71d1e83e189",
+  "active": "cefeecacab4b98a6",
   "lastOpenFiles": [
     "README.md"
   ]
