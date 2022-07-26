@@ -13,7 +13,19 @@
             "mode": "source",
             "source": false
           }
-        }
+        },
+        "group": "68b831b027adfa12"
+      },
+      {
+        "id": "5aee3cd08060695d",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "常用软件安装与使用/etcd.md"
+          }
+        },
+        "group": "68b831b027adfa12"
       }
     ],
     "direction": "vertical"
@@ -128,7 +140,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "901ec7822f1677cb",
+  "active": "5aee3cd08060695d",
   "lastOpenFiles": [
     "README.md",
     "常用软件安装与使用/etcd.md"
