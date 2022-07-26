@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "常用软件安装与使用/etcd.md",
+            "file": "常用软件安装与使用/flink.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用软件安装与使用/etcd.md",
+                "file": "常用软件安装与使用/flink.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用软件安装与使用/etcd.md",
+                "file": "常用软件安装与使用/flink.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用软件安装与使用/etcd.md"
+                "file": "常用软件安装与使用/flink.md"
               }
             }
           }
@@ -130,7 +130,8 @@
   },
   "active": "901ec7822f1677cb",
   "lastOpenFiles": [
-    "README.md",
-    "常用软件安装与使用/etcd.md"
+    "常用软件安装与使用/etcd.md",
+    "常用软件安装与使用/flink.md",
+    "README.md"
   ]
 }
