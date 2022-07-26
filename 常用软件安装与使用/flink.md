@@ -10,3 +10,27 @@ FLINK_PROPERTIES="jobmanager.rpc.address: jobmanager"
 docker network create flink-network
 ```
 
+Then we launch the JobManager:
+
+```sh
+docker run \
+    --rm \
+    --name=jobmanager \
+    --network flink-network \
+    --publish 8081:8081 \
+    --env FLINK_PROPERTIES="${FLINK_PROPERTIES}" \
+    flink:latest jobmanager
+```
+
+and one or more TaskManager containers:
+
+```sh
+docker run \
+    --rm \
+    --name=taskmanager \
+    --network flink-network \
+    --env FLINK_PROPERTIES="${FLINK_PROPERTIES}" \
+    flink:latest taskmanager
+```
+
+The web interface is now available at [localhost:8081](http://localhost:8081/).
