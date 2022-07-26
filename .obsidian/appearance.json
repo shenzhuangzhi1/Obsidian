@@ -1,4 +1,5 @@
 {
   "translucency": true,
-  "baseFontSize": 21
+  "baseFontSize": 21,
+  "cssTheme": "Dracula for Obsidian"
 }
