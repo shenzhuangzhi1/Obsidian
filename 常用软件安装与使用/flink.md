@@ -42,3 +42,24 @@ $ ./bin/flink run ./examples/streaming/TopSpeedWindowing.jar
 ```
 
 To shut down the cluster, either terminate (e.g. with `CTRL-C`) the JobManager and TaskManager processes, or use `docker ps` to identify and `docker stop` to terminate the containers.
+## Deployment Modes
+
+The Flink image contains a regular Flink distribution with its default configuration and a standard entry point script. You can run its entry point in the following modes:
+
+-   [JobManager](https://nightlies.apache.org/flink/flink-docs-master/docs/concepts/glossary/#flink-jobmanager) for [a Session cluster](https://nightlies.apache.org/flink/flink-docs-master/docs/deployment/resource-providers/standalone/docker/#starting-a-session-cluster-on-docker)
+-   [JobManager](https://nightlies.apache.org/flink/flink-docs-master/docs/concepts/glossary/#flink-jobmanager) for [an Application cluster](https://nightlies.apache.org/flink/flink-docs-master/docs/deployment/resource-providers/standalone/docker/#application-mode-on-docker)
+-   [TaskManager](https://nightlies.apache.org/flink/flink-docs-master/docs/concepts/glossary/#flink-taskmanager) for any cluster
+
+This allows you to deploy a standalone cluster (Session or Application Mode) in any containerised environment, for example:
+
+-   manually in a local Docker setup,
+-   [in a Kubernetes cluster](https://nightlies.apache.org/flink/flink-docs-master/docs/deployment/resource-providers/standalone/kubernetes/),
+-   [with Docker Compose](https://nightlies.apache.org/flink/flink-docs-master/docs/deployment/resource-providers/standalone/docker/#flink-with-docker-compose),
+
+Note [The native Kubernetes](https://nightlies.apache.org/flink/flink-docs-master/docs/deployment/resource-providers/native_kubernetes/) also runs the same image by default and deploys TaskManagers on demand so that you do not have to do it manually.
+
+The next chapters describe how to start a single Flink Docker container for various purposes.
+
+Once you’ve started Flink on Docker, you can access the Flink Web UI on [localhost:8081](http://localhost:8081/#/overview) or submit jobs like this `./bin/flink run ./examples/streaming/TopSpeedWindowing.jar`.
+
+We recommend using [Docker Compose](https://nightlies.apache.org/flink/flink-docs-master/docs/deployment/resource-providers/standalone/docker/#flink-with-docker-compose) for deploying Flink in Session Mode to ease system configuration.
