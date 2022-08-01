@@ -38,6 +38,7 @@ umount /dev/vdb1
 >说明：/inspur 表示默认挂载位置，使用mount挂在后重启系统挂载不再生效，需要添加开启启动
 
 # 添加分区自动挂载
+```shell
 
 echo '/dev/vdb1 /inspur ext4 defaults 0 0' >> /etc/fstab
 # 卸载分区
@@ -46,3 +47,4 @@ umount -v /dev/vdb1
 mount –a
 # 查看写入分区信息
 cat /etc/fstab
+```
