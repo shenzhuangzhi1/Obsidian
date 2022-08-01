@@ -11,7 +11,6 @@ fdisk -l
 ![[1658385306085-6ec17f4e-db02-42ee-8e28-3c0e5f3debc0.png]]
 # 硬盘分区
 ```shell
-
 # 分区/dev/vdb
 fdisk /dev/vdb
 
