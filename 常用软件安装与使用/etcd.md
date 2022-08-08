@@ -117,7 +117,7 @@ etcdctl user grant-role root root
 
 ## 开启root用户
 ```shell
-etcdctl --endpoints=http://192.168.0.111:2379 user add root
+etcdctl --endpoints=http://10.210.65.47:2379 user add root
 
 etcdctl --endpoints=http://192.168.0.111:2379 auth enable
 
