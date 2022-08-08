@@ -131,9 +131,8 @@ user grant-role root root
 # 查看集群状态
 etcdctl --endpoints=http://10.3.248.99:2379 \
 --insecure-skip-tls-verify endpoint status --write-out=table
-```
+
 # 备份
-```shell
 mkdir -p /inspur/backup/etcd
 etcdctl --endpoints=http://10.110.96.55:2379 \
 snapshot save /inspur/backup/etcd/etcd_`date +%Y%m%d%H%M`.db --user=root
