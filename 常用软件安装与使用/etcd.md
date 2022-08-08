@@ -114,9 +114,9 @@ etcdctl user grant-role root root
 --user="root" 
 ```
 # 例子
-```shell
-## 开启root用户
 
+## 开启root用户
+```shell
 etcdctl --endpoints=http://192.168.0.111:2379 user add root
 
 etcdctl --endpoints=http://192.168.0.111:2379 auth enable
@@ -125,9 +125,9 @@ etcdctl --endpoints=http://192.168.0.111:2379 \
 --user="root" \
 --password="szzf@2022" \
 user grant-role root root
-
+```
 ## 备份与升级
-
+```shell
 # 查看集群状态
 etcdctl --endpoints=http://10.3.248.99:2379 \
 --insecure-skip-tls-verify endpoint status --write-out=table
