@@ -100,7 +100,7 @@ sudo tee /etc/docker/daemon.json <<-'EOF'
 EOF
 sudo systemctl daemon-reload
 sudo systemctl restart docker
-
+```
 ### 1.4、开启远程访问
 
 #### 1.4.1、修改配置
