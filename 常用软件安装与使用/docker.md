@@ -200,3 +200,4 @@ docker logs 容器名/id
 docker cp myngnix:/etc/profile /data/etc/profile
 # 讲指定位置的东西复制到容器中
 docker cp /data/etc/profile myngnix:/etc/profile
+```
