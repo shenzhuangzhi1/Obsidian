@@ -131,7 +131,7 @@ netstat -nlpt | grep 2375
 docker pull nginx
 # 镜像名:版本名（标签）
 docker pull nginx:1.20.1
-
+```
 ## 2、启动容器
 
 docker run [OPTIONS] IMAGE [COMMAND] [ARG……]
