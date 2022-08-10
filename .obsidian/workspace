@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "901ec7822f1677cb",
+        "id": "51f080b06f1084ba",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "常用软件安装与使用/docker.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用软件安装与使用/docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用软件安装与使用/docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "常用软件安装与使用/docker.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -128,8 +120,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "901ec7822f1677cb",
+  "active": "51f080b06f1084ba",
   "lastOpenFiles": [
+    "常用软件安装与使用/docker.md",
     "常用软件安装与使用/etcd.md",
     "常用软件安装与使用/Linux 硬盘挂载.md",
     "常用软件安装与使用/flink.md",
