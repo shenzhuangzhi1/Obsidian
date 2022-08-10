@@ -164,7 +164,7 @@ docker exec -it 容器id /bin/bash
 docker run --name=myngnix -d --restart=always -p 88:80 -v /data/html:/usr/share/nginx/html:rw
 ```
 ## 4、提交改变
-
+```shell
 docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]
 docker commit -a "sheny" -m "首页变化" 234aq2wd:v1.0
 
