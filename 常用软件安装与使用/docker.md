@@ -167,7 +167,7 @@ docker run --name=myngnix -d --restart=always -p 88:80 -v /data/html:/usr/share/
 ```shell
 docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]
 docker commit -a "sheny" -m "首页变化" 234aq2wd:v1.0
-
+```
 ### 1、储存到文件进行传输
 
 # 将镜像保存成压缩包
