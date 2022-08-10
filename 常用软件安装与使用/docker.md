@@ -191,7 +191,7 @@ docker logout
 docker push sheny/myngnix:1.0
 # 别的机器下载
 docker pull sheny/myngnix:1.0
-
+```
 ## 6、补充
 
 # 排错打印日志
