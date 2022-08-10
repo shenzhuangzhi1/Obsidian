@@ -158,7 +158,7 @@ docker update 容器id/名字 --restart=always
 ```shell
 # 进入容器内部
 docker exec -it 容器id /bin/bash
-
+```
 ### 2、挂载数据到外部进行修改
 
 docker run --name=myngnix -d --restart=always -p 88:80 -v /data/html:/usr/share/nginx/html:rw
