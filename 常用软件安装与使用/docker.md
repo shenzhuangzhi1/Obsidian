@@ -193,7 +193,7 @@ docker push sheny/myngnix:1.0
 docker pull sheny/myngnix:1.0
 ```
 ## 6、补充
-
+```shell
 # 排错打印日志
 docker logs 容器名/id
 # 将指定容器中的东西复制出来
