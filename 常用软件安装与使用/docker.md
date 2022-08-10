@@ -169,7 +169,7 @@ docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]
 docker commit -a "sheny" -m "首页变化" 234aq2wd:v1.0
 ```
 ### 1、储存到文件进行传输
-
+```shell
 # 将镜像保存成压缩包
 docker save [OPTIONS] IMAGE [IMAGE...]
 docker save -o abc.tar abc:0.1
