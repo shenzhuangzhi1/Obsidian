@@ -73,9 +73,9 @@ WantedBy=multi-user.target
 chmod +x /etc/systemd/system/docker.service
 ```
 #### 1.3.3、启动
-
+```shell
 systemctl enable docker --now
-
+```s
 ### 1.3、配置加速
 
 这里添加了docker生产环境核心配置cgroup
