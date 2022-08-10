@@ -69,9 +69,9 @@ StartLimitInterval=60s
 WantedBy=multi-user.target
 ```
 #### 1.3.2、赋予启动权限
-
+```shell
 chmod +x /etc/systemd/system/docker.service
-
+```
 #### 1.3.3、启动
 
 systemctl enable docker --now
