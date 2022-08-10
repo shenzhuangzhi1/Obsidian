@@ -111,7 +111,7 @@ vim /etc/systemd/system/docker.service
 ExecStart=/usr/bin/dockerd -H tcp://0.0.0.0:2375 -H unix:///var/run/docker.sock
 ```
 #### 1.4.2、重新加载配置文件
-
+```shell
 # 重新加载配置文件
 systemctl daemon-reload
 # 重启服务
