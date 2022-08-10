@@ -7,8 +7,12 @@
         "id": "51f080b06f1084ba",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "常用软件安装与使用/docker.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "常用软件安装与使用/docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "常用软件安装与使用/docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "常用软件安装与使用/docker.md"
+              }
             }
           }
         ],
