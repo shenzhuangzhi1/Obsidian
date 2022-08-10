@@ -160,9 +160,9 @@ docker update 容器id/名字 --restart=always
 docker exec -it 容器id /bin/bash
 ```
 ### 2、挂载数据到外部进行修改
-
+```shell
 docker run --name=myngnix -d --restart=always -p 88:80 -v /data/html:/usr/share/nginx/html:rw
-
+```
 ## 4、提交改变
 
 docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]
