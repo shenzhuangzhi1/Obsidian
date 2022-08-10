@@ -133,7 +133,7 @@ docker pull nginx
 docker pull nginx:1.20.1
 ```
 ## 2、启动容器
-
+```shell
 docker run [OPTIONS] IMAGE [COMMAND] [ARG……]
 docker run [设置项] 镜像名 [镜像启动运行的命令]
 # -d: 后台运行
