@@ -180,7 +180,7 @@ docker load -i abc.tar
 ```shell
 docker tag local-image:tagname new-repo:tagname
 docker push new-repo:tagname
-```
+
 # 把仓库名字修改为带有仓库的名字
 docker tag myngnix:1.0 sheny/myngnix:1.0
 # 登录到docker hub
