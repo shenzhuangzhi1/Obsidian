@@ -118,7 +118,7 @@ systemctl daemon-reload
 systemctl restart docker.service
 # 查看配置的端口号（2375）是否开启（非必要）
 netstat -nlpt | grep 2375
-
+```
 #### 1.4.3、参考
 
 [Docker - Help | IntelliJ IDEA](https://link.zhihu.com/?target=https%3A//www.jetbrains.com/help/idea/docker.html)
