@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "常用软件安装与使用/etcd.md",
+            "file": "常用软件安装与使用/docker.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用软件安装与使用/etcd.md",
+                "file": "常用软件安装与使用/docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用软件安装与使用/etcd.md",
+                "file": "常用软件安装与使用/docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用软件安装与使用/etcd.md"
+                "file": "常用软件安装与使用/docker.md"
               }
             }
           }
@@ -130,9 +130,9 @@
   },
   "active": "901ec7822f1677cb",
   "lastOpenFiles": [
+    "常用软件安装与使用/etcd.md",
     "常用软件安装与使用/Linux 硬盘挂载.md",
     "常用软件安装与使用/flink.md",
-    "常用软件安装与使用/etcd.md",
     "README.md"
   ]
 }
