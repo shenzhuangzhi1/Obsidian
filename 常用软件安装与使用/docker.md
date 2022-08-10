@@ -104,7 +104,7 @@ sudo systemctl restart docker
 ### 1.4、开启远程访问
 
 #### 1.4.1、修改配置
-
+```shell
 # 修改Docker服务文件，需要先切换到root用户
 vim /etc/systemd/system/docker.service
 # 注释掉"ExecStart"这一行，并添加下面这一行信息
