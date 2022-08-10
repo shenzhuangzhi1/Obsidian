@@ -126,7 +126,7 @@ netstat -nlpt | grep 2375
 # 二、基础命令
 
 ## 1、找镜像
-
+```shell
 # 下载最新版
 docker pull nginx
 # 镜像名:版本名（标签）
