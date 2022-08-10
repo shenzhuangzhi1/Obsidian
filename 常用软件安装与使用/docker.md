@@ -79,7 +79,7 @@ systemctl enable docker --now
 ### 1.3、配置加速
 
 这里添加了docker生产环境核心配置cgroup
-
+```shell
 sudo mkdir -p /etc/docker
 sudo tee /etc/docker/daemon.json <<-'EOF'
 {
