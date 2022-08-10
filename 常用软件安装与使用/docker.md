@@ -175,7 +175,7 @@ docker save [OPTIONS] IMAGE [IMAGE...]
 docker save -o abc.tar abc:0.1
 # 别的机器加载这个镜像
 docker load -i abc.tar
-
+```
 ## 5、推送远程仓库
 
 docker tag local-image:tagname new-repo:tagname
