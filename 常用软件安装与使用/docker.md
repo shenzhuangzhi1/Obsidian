@@ -33,7 +33,7 @@ cp docker/* /usr/bin/
 # docker.service的内容在下面
 vim /etc/systemd/system/docker.service
 ```
-```service
+```shel
 [Unit]
 Description=Docker Application Container Engine
 Documentation=https://docs.docker.com
