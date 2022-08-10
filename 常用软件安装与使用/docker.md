@@ -109,7 +109,7 @@ sudo systemctl restart docker
 vim /etc/systemd/system/docker.service
 # 注释掉"ExecStart"这一行，并添加下面这一行信息
 ExecStart=/usr/bin/dockerd -H tcp://0.0.0.0:2375 -H unix:///var/run/docker.sock
-
+```
 #### 1.4.2、重新加载配置文件
 
 # 重新加载配置文件
