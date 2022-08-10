@@ -177,10 +177,10 @@ docker save -o abc.tar abc:0.1
 docker load -i abc.tar
 ```
 ## 5、推送远程仓库
-
+```shell
 docker tag local-image:tagname new-repo:tagname
 docker push new-repo:tagname
-
+```
 # 把仓库名字修改为带有仓库的名字
 docker tag myngnix:1.0 sheny/myngnix:1.0
 # 登录到docker hub
