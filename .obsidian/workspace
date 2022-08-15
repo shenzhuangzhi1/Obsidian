@@ -7,8 +7,12 @@
         "id": "2dbcaaceb6188771",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "常用软件安装与使用/k8s&kubesphere/kubesphere.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -75,6 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "常用软件安装与使用/k8s&kubesphere/kubesphere.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,6 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "常用软件安装与使用/k8s&kubesphere/kubesphere.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +118,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "常用软件安装与使用/k8s&kubesphere/kubesphere.md"
+              }
             }
           }
         ],
@@ -122,7 +130,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "424633ee153a5aba",
+  "active": "2dbcaaceb6188771",
   "lastOpenFiles": [
     "2022-08-15.md",
     "常用软件安装与使用/PostgreSQL-12.md",
