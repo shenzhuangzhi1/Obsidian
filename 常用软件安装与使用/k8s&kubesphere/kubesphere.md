@@ -177,21 +177,23 @@ wget https://github.com/kubesphere/ks-installer/releases/download/v3.2.1/kubesph
 wget https://github.com/kubesphere/ks-installer/releases/download/v3.2.1/cluster-configuration.yaml
 ```
 
->注意：如果为k8s单节点，需要执行以下命令允许master部署pod
+>注意：如果为k8s单节点，需要执行以下命令允许master部署pod，不然nfs-client一直在pending状态
+
 ```shell
-`kubectl taint nodes --all node-role.kubernetes.io/master-`
+kubectl taint nodes --all node-role.kubernetes.io/master-
 ```
-不然nfs-client一直在pending状态
+
 
 # 根据yaml文件申请资源
-
+```shell
 kubectl apply -f kubesphere-installer.yaml
 kubectl apply -f cluster-configuration.yaml
-
+```
 # 查看部署进度
-
+```shell
 kubectl logs -n kubesphere-system $(kubectl get pod -n kubesphere-system -l app=ks-install -o jsonpath='{.items[0].metadata.name}') -f
-
+```
 解决etcd监控证书找不到问题
-
-`kubectl -n kubesphere-monitoring-system create secret generic kube-etcd-client-certs --from-file=etcd-client-ca.crt=/etc/kubernetes/pki/etcd/ca.crt --from-file=etcd-client.crt=/etc/kubernetes/pki/apiserver-etcd-client.crt --from-file=etcd-client.key=/etc/kubernetes/pki/apiserver-etcd-client.key`
+```shell
+kubectl -n kubesphere-monitoring-system create secret generic kube-etcd-client-certs --from-file=etcd-client-ca.crt=/etc/kubernetes/pki/etcd/ca.crt --from-file=etcd-client.crt=/etc/kubernetes/pki/apiserver-etcd-client.crt --from-file=etcd-client.key=/etc/kubernetes/pki/apiserver-etcd-client.key
+```
