@@ -84,20 +84,19 @@ kubeadm init \
 -   --kubernetes-version:当前kubernetes的版本
 -   --service-cidr:虚拟IP
 -   --pod-network-cidr:虚拟IP
-安装完成后记得保存token，执行需要执行的3条命令
+**安装完成后记得保存token，执行需要执行的3条命令**
 
 ### 使master节点可被调度[多节点可选，单节点必选]
-
+```shell
 kubectl taint nodes --all node-role.kubernetes.io/master-
-
+```
 ### 安装Calico网络组件
-
+```shell
 curl https://docs.projectcalico.org/manifests/calico.yaml -O
-
 kubectl apply -f calico.yaml
-
+```
 # 快速删除
-
+```shell
 kubeadm reset -f
 modprobe -r ipip
 rm -rf ~/.kube/
@@ -111,5 +110,4 @@ rm -rf /var/lib/etcd
 rm -rf /var/etcd
 yum clean all
 yum remove kubeadm kubelet kubectl
-
-/
+```
