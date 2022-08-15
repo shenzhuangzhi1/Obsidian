@@ -6,7 +6,7 @@
 
 ## 1.2、docker-compose安装
 
-此处为语雀内容卡片，点击链接查看：[https://www.yuque.com/garbage-osb6f/yh02ve/wnsgul](https://www.yuque.com/garbage-osb6f/yh02ve/wnsgul)
+[[docker-compose]]
 
 # 二、下载离线安装包
 
@@ -29,8 +29,11 @@
 ## 3.1、创建`harbor.yml`并修改
 
 首先，从模版生成一个`harbor.yml`文件：
-
+```shell
 cp harbor.yml.tmpl harbor.yml
+```
+
+```
 
 # Configuration file of Harbor
 
@@ -285,25 +288,26 @@ age: 168h
 # the interval of the purge operations
 interval: 24h
 dryrun: false
-
+```
 ## 3.2、执行脚本
 
 该脚本会先加载所需要的 docker image，然后再启动：
-
+```shell
 sudo sh install.sh
-
+```
 # 四、使用时的注意事项
 
 如果一个docker服务需要配置自己的harbor源作为私有仓库则需要对`/etc/docker/daemon.json`添加以下内容：
-
+```json
 # 需要将地址注册到mirrors列表中，以及将地址注册到insecure-registries中
 {
   "registry-mirrors": ["https://s9c0jp37.mirror.aliyuncs.com", "http://10.3.248.98:8080"],
   "exec-opts": ["native.cgroupdriver=systemd"],
   "insecure-registries": ["10.3.248.98:8080"]
 }
-
+```
 然后执行命令，使其生效：
-
+```shell
 sudo systemctl daemon-reload
 sudo systemctl restart docker
+```
