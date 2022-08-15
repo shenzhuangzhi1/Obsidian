@@ -29,7 +29,7 @@ $ docker run \
 
 and one or more TaskManager containers:
 
-```sh
+```bash
 $ docker run \
     --rm \
     --name=taskmanager \
