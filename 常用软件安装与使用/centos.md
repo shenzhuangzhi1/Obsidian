@@ -21,7 +21,7 @@ yum repolist
 ```shell
 yum install htop -y
 ```
-# ntpdate
+## ntpdate
 ```shell
 yum install ntpdate -y
 # 同步时间
