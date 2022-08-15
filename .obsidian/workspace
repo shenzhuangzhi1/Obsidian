@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "常用软件安装与使用/PostgreSQL-12.md",
+            "file": "常用软件安装与使用/k8s&kubesphere/kubeernetes&helm 基本使用.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用软件安装与使用/PostgreSQL-12.md",
+                "file": "常用软件安装与使用/k8s&kubesphere/kubeernetes&helm 基本使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用软件安装与使用/PostgreSQL-12.md",
+                "file": "常用软件安装与使用/k8s&kubesphere/kubeernetes&helm 基本使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用软件安装与使用/PostgreSQL-12.md"
+                "file": "常用软件安装与使用/k8s&kubesphere/kubeernetes&helm 基本使用.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "2dbcaaceb6188771",
   "lastOpenFiles": [
-    "README.md",
-    "常用软件安装与使用/minio.md",
     "常用软件安装与使用/k8s&kubesphere/kubesphere.md",
-    "常用软件安装与使用/k8s&kubesphere/Kubernetes.md",
-    "常用软件安装与使用/centos.md",
+    "常用软件安装与使用/PostgreSQL-12.md",
+    "1658385306085-6ec17f4e-db02-42ee-8e28-3c0e5f3debc0.png",
+    "Pasted image 20220815165747.png",
+    "Pasted image 20220815165809.png",
+    "Pasted image 20220815165609.png",
+    "Pasted image 20220815165615.png.md",
     "常用软件安装与使用/k8s&kubesphere/kubeernetes&helm 基本使用.md",
-    "常用软件安装与使用/k8s&kubesphere/CoreDNS修改配置.md",
-    "Pasted image 20220815154603.png",
-    "常用软件安装与使用/harbor.md",
-    "常用软件安装与使用/docker-compose.md"
+    "常用软件安装与使用/k8s&kubesphere/Kubernetes.md",
+    "常用软件安装与使用/docker.md"
   ]
 }

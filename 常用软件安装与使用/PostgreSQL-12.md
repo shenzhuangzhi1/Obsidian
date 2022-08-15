@@ -45,7 +45,7 @@ psql postgres
 vim /var/lib/pgsql/12/data/pg_hba.conf
 ```
 添加图中红框框住的行：
-
+![[Pasted image 20220815165747.png]]
 
 ## 2.8、修改监听地址
 ```shell
@@ -53,11 +53,7 @@ vim /var/lib/pgsql/12/data/postgresql.conf
 listen_addresses = 'ip' # ip为实际的ip地址，不是字符串"ip"
 ```
 例如：
-
-![](https://cdn.nlark.com/yuque/0/2022/png/23085707/1651894747219-b91bd108-d41b-4ef3-92cd-d75f8fe9cd5a.png)
-
-  
-
+![[Pasted image 20220815165809.png]]
 ## 2.9、 杀掉进程并重启
 ```shell
 ps -ef | grep postgres
