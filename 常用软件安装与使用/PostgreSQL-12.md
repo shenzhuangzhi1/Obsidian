@@ -47,7 +47,6 @@ vim /var/lib/pgsql/12/data/pg_hba.conf
 添加图中红框框住的行：
 
 
-
 ## 2.8、修改监听地址
 ```shell
 vim /var/lib/pgsql/12/data/postgresql.conf
