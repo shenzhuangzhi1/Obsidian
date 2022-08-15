@@ -130,6 +130,8 @@
   },
   "active": "2dbcaaceb6188771",
   "lastOpenFiles": [
+    "README.md",
+    "常用软件安装与使用/minio.md",
     "常用软件安装与使用/k8s&kubesphere/kubesphere.md",
     "常用软件安装与使用/k8s&kubesphere/Kubernetes.md",
     "常用软件安装与使用/centos.md",
@@ -137,8 +139,6 @@
     "常用软件安装与使用/k8s&kubesphere/CoreDNS修改配置.md",
     "Pasted image 20220815154603.png",
     "常用软件安装与使用/harbor.md",
-    "常用软件安装与使用/docker-compose.md",
-    "常用软件安装与使用/docker.md",
-    "常用软件安装与使用/helm.md"
+    "常用软件安装与使用/docker-compose.md"
   ]
 }
