@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "常用软件安装与使用/helm.md",
+            "file": "常用软件安装与使用/未命名.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用软件安装与使用/helm.md",
+                "file": "常用软件安装与使用/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用软件安装与使用/helm.md",
+                "file": "常用软件安装与使用/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用软件安装与使用/helm.md"
+                "file": "常用软件安装与使用/未命名.md"
               }
             }
           }
@@ -130,6 +130,7 @@
   },
   "active": "51f080b06f1084ba",
   "lastOpenFiles": [
+    "常用软件安装与使用/helm.md",
     "常用软件安装与使用/flink.md",
     "常用软件安装与使用/Linux 硬盘挂载.md",
     "常用软件安装与使用/etcd.md",
