@@ -132,6 +132,8 @@
   },
   "active": "2dbcaaceb6188771",
   "lastOpenFiles": [
+    "常用软件安装与使用/Linux 硬盘挂载.md",
+    "常用软件安装与使用/minio.md",
     "常用软件安装与使用/k8s&kubesphere/kubesphere.md",
     "常用软件安装与使用/k8s&kubesphere/Kubernetes.md",
     "常用软件安装与使用/k8s&kubesphere/kubeernetes&helm 基本使用.md",
@@ -139,8 +141,6 @@
     "2022-08-15.md",
     "常用软件安装与使用/PostgreSQL-12.md",
     "image/1658385306085-6ec17f4e-db02-42ee-8e28-3c0e5f3debc0.png",
-    "常用软件安装与使用/flink.md",
-    "常用软件安装与使用/helm.md",
-    "常用软件安装与使用/minio.md"
+    "常用软件安装与使用/flink.md"
   ]
 }
