@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "常用软件安装与使用/etcd.md",
-            "mode": "preview",
+            "file": "常用软件安装与使用/docker.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用软件安装与使用/etcd.md",
+                "file": "常用软件安装与使用/docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用软件安装与使用/etcd.md",
+                "file": "常用软件安装与使用/docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用软件安装与使用/etcd.md"
+                "file": "常用软件安装与使用/docker.md"
               }
             }
           }
@@ -132,6 +132,7 @@
   },
   "active": "2dbcaaceb6188771",
   "lastOpenFiles": [
+    "常用软件安装与使用/etcd.md",
     "常用软件安装与使用/minio.md",
     "常用软件安装与使用/Linux 硬盘挂载.md",
     "常用软件安装与使用/k8s&kubesphere/kubesphere.md",
@@ -140,7 +141,6 @@
     "常用软件安装与使用/docker.md",
     "2022-08-15.md",
     "常用软件安装与使用/PostgreSQL-12.md",
-    "image/1658385306085-6ec17f4e-db02-42ee-8e28-3c0e5f3debc0.png",
-    "常用软件安装与使用/flink.md"
+    "image/1658385306085-6ec17f4e-db02-42ee-8e28-3c0e5f3debc0.png"
   ]
 }

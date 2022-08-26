@@ -25,6 +25,7 @@ systemctl enable docker --now
 ### 1.3、`离线安装`（与`在线安装`二选一）
 
 离线安装包下载地址：[链接](https://download.docker.com/linux/static/stable/x86_64/)
+只需要下载以“docker-”开头的一个包即可
 
 #### 1.3.1、解压安装包与`service`信息配置
 ```shell
