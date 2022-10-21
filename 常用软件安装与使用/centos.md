@@ -1,4 +1,5 @@
 # 换源
+## centos 7
 
 ```shell
 mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
@@ -7,6 +8,10 @@ yum clean all
 yum makecache
 yum list updates
 yum update -y
+```
+## centos 8
+```shell
+bash <(curl -sSLL https://gitee.com/SuperManito/LinuxMirrors/raw/main/ChangeMirrors.sh)
 ```
 # 安装EPEL
 ```shell
