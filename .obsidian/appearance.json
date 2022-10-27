@@ -2,5 +2,6 @@
   "translucency": true,
   "baseFontSize": 21,
   "cssTheme": "Dracula for Obsidian",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "accentColor": ""
 }
