@@ -1,4 +1,4 @@
-# 快速启动
+# quickly start
 ```shell
 docker run \
   -p 9200:9200 \
@@ -8,7 +8,7 @@ docker run \
   --name=elk-7.16.2 \
 sebp/elk:7.16.2
 ```
-这种启动方式仅仅推荐在开发环境中使用，测试环境或开发环境并不推荐使用这种方式。因为这种启动方式并不符合容器运行的标准规则，这种方式将多个进程放进一个容器中。
+This startup method is only recommended for use in a development environment, and is not recommended for a test or development environment. Because this startup method does not conform to the standard rules of container operation, this method will put multiple processes into a container.
 # 标准启动
 ## 8.X
 ### 创建网络
@@ -21,6 +21,7 @@ docker network create elastic
 #!/bin/bash
 
 docker run -t \
+  --restart=always \
   --name elasticsearch \
   --net elastic \
   -v "$PWD"/data:/var/data/elasticsearch \
@@ -35,6 +36,7 @@ docker run -t \
 ### 启动kibana
 ```shell
 docker run -d \
+  --restart=always \
   --name kibana \
   --net elastic \
   -p 5601:5601 \
@@ -52,18 +54,45 @@ chmod 777 -R data/
 # 创建网络
 docker network create elastic
 ```
+### 创建`elasticsearch.yml`配置文件
+```yaml
+cluster.name: "docker-cluster"
+network.host: 0.0.0.0
+xpack.security.enabled: true   #这一步是开启x-pack插件
+```
 ### 启动elasticsearch
 ```shell
 #!/bin/bash
 
 docker run -d \
+  --restart=always \
   --name elasticsearch \
   --net elastic \
   -v "$PWD"/data:/usr/share/elasticsearch/data \
   -v "$PWD"/logs:/usr/share/elasticsearch/logs \
+  -v "$PWD"/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml \
   -p 9200:9200 \
   -p 9300:9300 \
   -e "discovery.type=single-node" \
   -e ES_JAVA_OPTS="-Xms8g -Xmx8g" \
   docker.elastic.co/elasticsearch/elasticsearch:7.17.7
+```
+### 创建
+```yaml
+server.host: "0.0.0.0"
+server.shutdownTimeout: "5s"
+elasticsearch.hosts: [ "http://elasticsearch:9200" ]
+monitoring.ui.container.elasticsearch.enabled: true
+```
+### 启动kibana
+```shell
+#!/bin/bash
+
+docker run -d \
+  --restart=always \
+  --name kibana \
+  --net elastic \
+  -v "$PWD"/config/kibana.yml:/usr/share/kibana/config/kibana.yml \
+  -p 5601:5601 \
+  docker.elastic.co/kibana/kibana:7.17.7
 ```
