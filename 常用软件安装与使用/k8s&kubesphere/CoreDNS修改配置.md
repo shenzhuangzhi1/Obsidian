@@ -25,7 +25,9 @@ data:
            ttl 30
         }
         hosts {
-                1.1.1.1 git.sheny.com
+			1.1.1.1 git.sheny.com
+
+			fallthrough
         }
         prometheus :9153
         forward . /etc/resolv.conf {

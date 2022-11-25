@@ -17,4 +17,4 @@ helm repo add incubator http://mirror.azure.cn/kubernetes/charts-incubator/
 helm repo add kubesphere https://charts.kubesphere.io/main
 helm repo add bitnami https://charts.bitnami.com/bitnami
 helm repo update
-```
+``` 
