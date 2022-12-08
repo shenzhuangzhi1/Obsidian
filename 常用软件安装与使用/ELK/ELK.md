@@ -60,6 +60,11 @@ cluster.name: "docker-cluster"
 network.host: 0.0.0.0
 xpack.security.enabled: true   #这一步是开启x-pack插件
 ```
+### 修改密码
+进入容器，执行以下命令修改密码：
+```shell
+/usr/share/elasticsearch/bin/elasticsearch-setup-passwords interactive
+```
 ### 启动elasticsearch
 ```shell
 #!/bin/bash
@@ -75,14 +80,18 @@ docker run -d \
   -p 9300:9300 \
   -e "discovery.type=single-node" \
   -e ES_JAVA_OPTS="-Xms8g -Xmx8g" \
-  docker.elastic.co/elasticsearch/elasticsearch:7.17.7
+  docker.elastic.co/elasticsearch/elasticsearch:7.16.2
 ```
-### 创建
+### 修改密码
+
+### 创建`kibana.yaml`
 ```yaml
 server.host: "0.0.0.0"
 server.shutdownTimeout: "5s"
 elasticsearch.hosts: [ "http://elasticsearch:9200" ]
 monitoring.ui.container.elasticsearch.enabled: true
+elasticsearch.username: "elastic"
+elasticsearch.password: "123456"
 ```
 ### 启动kibana
 ```shell
@@ -92,7 +101,7 @@ docker run -d \
   --restart=always \
   --name kibana \
   --net elastic \
-  -v "$PWD"/config/kibana.yml:/usr/share/kibana/config/kibana.yml \
+  -v "$PWD"/config/kibana.yml:/usr/share/kibana/config/kibana.yml:ro \
   -p 5601:5601 \
-  docker.elastic.co/kibana/kibana:7.17.7
+  docker.elastic.co/kibana/kibana:7.16.2
 ```
